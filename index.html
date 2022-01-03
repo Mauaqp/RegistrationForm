@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de registro - Actividad Core 1</title>
+    </head>
+    <body>
+        <h1>
+            Registration Form
+        </h1>
+        <div>
+            <label for="FirstName">
+                First Name: *
+            </label>
+            <input type="text" name="FirstName" id="FirstName"/>
+        </div>
+        <div>
+            <label for="LastName">
+                Last Name: *
+            </label>
+            <input type="text" name="LastName" id="LastName"/>
+        </div>
+        <div>
+            <label for="Email">
+                Email Address: *
+            </label>
+            <input type="email" name="Email" id="Email"/>
+        </div>
+        <div>
+            <label for="Password">
+                Password: *
+            </label>
+            <input type="password" name="Password" id="Password"/>
+        </div>
+        <div>
+            <label for="confPassword">
+                Confirm Password: *
+            </label>
+            <input type="password" name="Password" id="confPassword"/>
+        </div>
+        <div>
+            <label for="Birthday">
+                Birthday: *
+            </label>
+            <input type="date" name="Birthday" id="Birthday"/>
+        </div>
+        <div>
+            <label for="Gender">
+                Gender Identity:
+            </label>
+            <div>
+                <input type="radio" name="Gender" id="Male"/>
+                <label for="Male">
+                    Male     
+                </label>
+                <input type="radio" name="Gender" id="Female"/>
+                <label for="Female">
+                    Female     
+                <input type="radio" name="Gender" id="Non-binary"/>
+                </label>
+                <label for="Non-binary">
+                    Non-binary    
+                </label>
+                <input type="radio" name="Gender" id="Noanswer"/>
+                <label for="Noanswer">
+                    I prefer not to answer     
+                </label>
+            </div>
+        </div>
+        <div>
+            <label for="Description">
+                A short description about myself:
+            </label>
+            <div>
+                            <textarea id="Description" name="Description"></textarea>  
+            </div>
+        </div>
+        <div>
+            <label for="language">
+                Favorite language
+            </label>
+            <select id="language" name="language">
+                <option value="JavaScript">
+                    JavaScript
+                </option>
+                <option value="Python">
+                    Python
+                </option>
+                <option value="Java">
+                    Java
+                </option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="updates" id="updates"/>
+            <label for="updates">
+                Yes, I would like to receive periodic email updates
+            </label>
+        </div>
+        <div>
+            <button type="submit">
+                Create Account
+            </button>
+        </div>
+        <div>
+            * Indicates a required field
+        </div>
+    </body>
+</html>
